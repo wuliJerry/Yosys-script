@@ -1,0 +1,25 @@
+{
+  "name": "yosys-script",
+  "displayName": "Yosys Script",
+  "description": "Syntax highlighting for Yosys Script",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "ys",
+      "aliases": ["Ys", "ys"],
+      "extensions": [".ys"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "ys",
+      "scopeName": "source.ys",
+      "path": "./syntaxes/ys.tmLanguage.json"
+    }]
+  }
+}
