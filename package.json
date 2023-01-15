@@ -1,4 +1,5 @@
 {
+  "publisher": "wuliJerry",
   "name": "yosys-script",
   "displayName": "Yosys Script",
   "description": "Syntax highlighting for Yosys Script",
