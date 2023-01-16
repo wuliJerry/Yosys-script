@@ -13,7 +13,7 @@ Only tested on VS Code 1.74
 
 ## Release Notes
 
-### 0.0.1
+### 0.0.2
 
 Initial release of yosys-script
 
